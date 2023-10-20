@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kotkantien maalaus ja tapetointi</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+  <link href='https://fonts.googleapis.com/css?family=Alkatra' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Rowdies' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Zen Dots' rel='stylesheet'>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="maalausliike.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="\Users\s3holi00\Downloads\code.jquery.com_jquery-3.7.1.min.js"></script>
+
+</head>
+<body>
+
+<!-- navigointi-->
+<div class="w3-top" >
+  <div class="w3-row w3-medium w3-white;" style="padding: 20px; ">
+    <div class="w3-col s3" style="width:20%">
+      <a href="#" class="w3-button w3-block w3-white">Etusivu</a>
+    </div>
+    <div class="w3-col s3" style="width:20%">
+        <a href="#offer" class="w3-button w3-block w3-white">Palvelut</a>
+    </div>
+    <div class="w3-col s3" style="width:20%">
+      <a href="C:\Users\s3holi00\OneDrive - OSAO\Tiedostot\CSS\kotkantie\varientestaus.html"  target="_blank" class="w3-button w3-block w3-white">Värien testaus</a>
+    </div>
+    <div class="w3-col s3" style="width:20%">
+     <a href="#galleria" class="w3-button w3-block w3-white">Galleria</a>
+    </div>
+    <div class="w3-col s3" style="width:20%">
+      <a href="#contact" class="w3-button w3-block w3-white">Ota yhteyttä</a>
+    </div>
+  </div>
+</div>
+
+<!-- Content -->
+<div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+
+    <div class="w3-panel">
+      <h1 id="otsikko"><b>Kotkantien maalaus ja tapetointi</b></h1>
+      <br>
+    </div>
+
+    <!-- Taustakuva-->
+    <div class="w3-container">
+      <div class="w3-display-container">
+        <img  src="oranssimies2.jpg" style="width:100%">
+        <div class="w3-display-topleft w3-container w3-padding-32">
+          <a style="text-decoration: none" href="#contactinfo"><span class="w3-orange w3-padding-large w3-hover-opacity w3-animate-bottom" style="text-shadow:1px 1px 0 #444">Pyydä tarjous!</span></a>
+          <div  class="w3-display-topbottom w3-container w3-padding-32">
+            <h1>Kaipaako talosi uutta pintaa?</h1>
+            <h2>Toteutamme julkisivumaalaukset, sisämaalaukset ja tapetoinnit ammattitaidolla Oulun alueella.</h2>
+          </div>
+        </div>
+        
+        
+      </div>
+    </div> 
+    
+    <!-- Grid -->
+    <div class="w3-row w3-container" id="offer">
+          <div class="w3-center w3-padding-64">
+              <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Palvelumme</span>
+          </div>
+      
+
+          <div class="w3-col l4 m4 w3-red w3-container w3-padding-16">
+              <div class="w3-card-4">
+                  <img src="talot.jpg" alt="kuva ei nay" style="width:100%; height: 300px;">
+                  <div class="w3-container">
+                  <h3>Ulkomaalaukset</h3>
+                  <p>Maalipinnan uusimisella suojaat talosi rakenteita ja lisäät talosi arvoa.</p>
+                  
+                
+                  </div>
+                  <!-- Trigger/Open The Modal -->
+               <button class="w3-button w3-light-grey w3-block" data-target="#modalcontent1" id="myBtn">Lue lisää</button>
+
+                
+                  <div id="myModal" class="modal" >
+
+                    <div class="modal-content w3-border w3-border-white w3-red" id="modalcontent1">
+                      <span class="close">&times;</span>
+                      <h3 class="w3-xxlarge">Ulkomaalaukset</h3>
+                      <p>Pyydä meitä tarkastamaan kotisi ulkomaalauksen kunto. Saat meiltä luotettavan ammattilaisen arvion. 
+                        Maalipinnan uusimisella suojaat talosi rakenteita ja lisäät talosi arvoa.</p><br>
+                        <a style="text-decoration: none" href="#contactinfo"><span id="tarjous1" class="w3-white w3-padding">Pyydä tarjous!</span></a>
+                    </div>
+
+                  </div>
+               
+              </div>
+          </div>
+        
+          <div class="w3-col l4 m4 w3-orange w3-container w3-padding-16">
+              <div class="w3-card-4">
+                  <img src="sisamaali.jpg" alt="kuva ei nay" style="width:100%; height: 300px;">
+                  <div class="w3-container">
+                  <h3>Sisämaalaukset</h3>
+                  <p>Sisämaalauksella saat huoneistoon valoisuutta ja piristät sisustusta.</p>
+                  <!--<p><button class="w3-button w3-light-grey w3-block" onclick="openPopup1();">Lue lisää</button></p>-->
+                  </div>
+                   <!-- Trigger/Open The Modal -->
+                   <button class="w3-button w3-light-grey w3-block"data-target="#modalcontent2" id="myBtn2">Lue lisää</button>
+
+                   <!-- The Modal -->
+                   <div id="myModal2" class="modal">
+ 
+                     <!-- Modal content -->
+                     <div class="modal-content w3-orange w3-border w3-border--white" id="modalcontent2">
+                       <span class="close">&times;</span>
+                       <h3 class="w3-xxlarge">Sisämaalaukset</h3>
+                       <p>Sisämaalauksella saat huoneistoon valoisuutta ja piristät sisustusta. 
+
+                        Meillä on vankka kokemus haastavimmistakin sisämaalausremonteista, ammattilaisemme osaavat valita oikeat ja laadukkaat maalit,
+                         sekä tehdä tarvittavat pohjatyöt materiaalin ja sen kunnon mukaan.
+                         <a href="C:\Users\s3holi00\OneDrive - OSAO\Tiedostot\CSS\varientestaus.html">Värityökalullamme </a>
+                         voit kokeilla käyttämiemme sisämaalien eri maalisävyjen yhteensopivuutta. 
+                        Ota yhteyttä ja suunnittele sisustusta yhdessä asiantuntijamme kanssa. <br>
+                        <br> <br>
+                        <a style="text-decoration: none" href="#contactinfo"><span id="tarjous2" class="w3-white w3-padding">Pyydä tarjous!</span></a>
+                     </div>
+ 
+                   </div>
+              
+            </div>
+          </div>
+      
+          <div class="w3-col l4 m4 w3-deep-orange w3-container w3-padding-16">
+              <div class="w3-card-4">
+                  <img src="kissatapetti.jpg" alt="kuva ei nay" style="width:100%; height: 300px;">
+                  <div class="w3-container">
+                  <h3>Tapetoinnit</h3>
+                  <p>Tapetoinnilla saat uutta ilmettä ja persoonallista sisustusta kotiisi.</p>
+                    
+              
+                  </div>
+                    <!-- Trigger/Open The Modal -->
+                  <button class="w3-button w3-light-grey w3-block" data-target="#modalcontent3" id="myBtn3">Lue lisää</button>
+
+                  <!-- The Modal -->
+                  <div id="myModal3" class="modal">
+  
+                    <!-- Modal content -->
+                    <div class="modal-content w3-border w3-border-white w3-deep-orange" id="modalcontent3">
+                      <span class="close">&times;</span>
+                      <h3 class="w3-xxlarge">Tapetoinnit</h3>
+                      <p>Tapetoinnilla saat uutta ilmettä ja persoonallista sisustusta kotiisi. Asiantuntijamme kanssa 
+                        voit suunnitella yhteensopivat tapetit ja maalit kotiisi. <br> <br>
+                        <a style="text-decoration: none" href="#contactinfo"><span id="tarjous3" class="w3-white w3-padding ">Pyydä tarjous!</span></a>
+                      </p>
+                    </div>
+  
+                  </div>
+              </div>
+              
+          </div>
+        
+      </div>
+
+       <!--Galleria-->
+    <div class="w3-row-padding" id="galleria">
+        
+
+      <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Galleria</span>
+      </div>
+
+          <!-- Slideshow -->
+    <div class="w3-container">
+      <h3 class="w3-center">Tässä näet joitakin ammattilaistemme aiemmin tekemiä kohteita</h3>
+      <div class="w3-display-container mySlides">
+        <img src="punainenseina.jpg" style="width:100%">
+        <div class="w3-display-bottomleft  w3-dropdown-hover">
+          <button class="w3-button w3-block w3-white  w3-padding-large w3-animate-bottom" style="text-shadow:1px 1px 0 #444">Testaa värejä!</button>
+            <div class="w3-dropdown-content w3-bar-block">
+              <a href="C:\Users\s3holi00\OneDrive - OSAO\Tiedostot\CSS\varientestaus.html" class="w3-bar-item w3-button ">Kokeile eri värisävyjen yhteensopivuutta värityökalullamme.</a>
+            </div>
+        </div>
+        
+      </div>
+      <div class="w3-display-container mySlides">
+        <img src="wall1.jpg" style="width:100%">
+        <div class="w3-display-bottomleft  w3-dropdown-hover">
+          <button class="w3-button w3-block w3-white  w3-padding-large w3-animate-bottom" style="text-shadow:1px 1px 0 #444">Testaa värejä!</button>
+            <div id="testaa" class="w3-dropdown-content w3-bar-block">
+              <a href="C:\Users\s3holi00\OneDrive - OSAO\Tiedostot\CSS\varientestaus.html" class="w3-bar-item w3-button ">Kokeile eri värisävyjen yhteensopivuutta värityökalullamme.</a>
+            </div>
+        </div>
+      </div>
+      <div class="w3-display-container mySlides">
+        <img src="harmaakoti.jpg" style="width:100%">
+        <div class="w3-display-bottomleft  w3-dropdown-hover">
+          <button class="w3-button w3-block w3-white  w3-padding-large w3-animate-bottom" style="text-shadow:1px 1px 0 #444">Testaa värejä!</button>
+            <div class="w3-dropdown-content w3-bar-block">
+              <a href="C:\Users\s3holi00\OneDrive - OSAO\Tiedostot\CSS\varientestaus.html" class="w3-bar-item w3-button ">Kokeile eri värisävyjen yhteensopivuutta värityökalullamme.</a>
+            </div>
+        </div>
+      </div>
+      <div class="w3-display-container mySlides">
+          <img src="sisustusseina.jpg" style="width:100%">
+          <div class="w3-display-bottomleft  w3-dropdown-hover">
+            <button class="w3-button w3-block w3-white  w3-padding-large w3-animate-bottom" style="text-shadow:1px 1px 0 #444">Testaa värejä!</button>
+              <div class="w3-dropdown-content w3-bar-block">
+                <a href="C:\Users\s3holi00\OneDrive - OSAO\Tiedostot\CSS\varientestaus.html" class="w3-bar-item w3-button ">Kokeile eri värisävyjen yhteensopivuutta värityökalullamme.</a>
+              </div>
+          </div>
+        </div>
+        <div class="w3-display-container mySlides">
+          <img src="tapettihuone.jpg" style="width:100%">
+          <div class="w3-display-bottomleft  w3-dropdown-hover">
+            <button class="w3-button w3-block w3-white  w3-padding-large w3-animate-bottom" style="text-shadow:1px 1px 0 #444">Testaa värejä!</button>
+              <div class="w3-dropdown-content w3-bar-block">
+                <a href="C:\Users\s3holi00\OneDrive - OSAO\Tiedostot\CSS\varientestaus.html" class="w3-bar-item w3-button ">Kokeile eri värisävyjen yhteensopivuutta värityökalullamme.</a>
+              </div>
+          </div>
+        </div>
+        <div class="w3-display-container mySlides">
+          <img src="sohvamusta.jpg" style="width:100%">
+          <div class="w3-display-bottomleft  w3-dropdown-hover">
+            <button class="w3-button w3-block w3-white  w3-padding-large w3-animate-bottom" style="text-shadow:1px 1px 0 #444">Testaa värejä!</button>
+              <div class="w3-dropdown-content w3-bar-block">
+                <a href="C:\Users\s3holi00\OneDrive - OSAO\Tiedostot\CSS\varientestaus.html" class="w3-bar-item w3-button ">Kokeile eri värisävyjen yhteensopivuutta värityökalullamme.</a>
+              </div>
+          </div>
+        </div>
+        <div class="w3-display-container mySlides">
+          <img src="sininenseina.jpg" style="width:100%">
+          <div class="w3-display-bottomleft  w3-dropdown-hover">
+            <button class="w3-button w3-block w3-white  w3-padding-large w3-animate-bottom" style="text-shadow:1px 1px 0 #444">Testaa värejä!</button>
+              <div class="w3-dropdown-content w3-bar-block">
+                <a href="C:\Users\s3holi00\OneDrive - OSAO\Tiedostot\CSS\varientestaus.html" class="w3-bar-item w3-button">Kokeile eri värisävyjen yhteensopivuutta värityökalullamme.</a>
+              </div>
+          </div>
+        </div>
+        
+   
+         <!--Slideshow next/previous buttons-->
+  <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
+    <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+    <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+  
+    <div class="w3-center">
+      <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+      <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+      <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+      <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
+      <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(6)"></span>
+      <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(7)"></span>
+    </div>
+  </div>
+</div> 
+  </div>
+
+      
+  <!-- Contact -->
+  <div class="w3-row-padding" id="contactinfo">
+    <div  id="yhteys"class="w3-third w3-margin-bottom"  > <!--style="width: 40%;"-->
+        <div class="w3-center w3-padding-64" id="contact">
+            <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Yhteystietomme</span>
+        </div>
+        <div class="w3-card-4">
+    
+            <div class="w3-container" style="height: 500px;">
+                <p>Kotkantie 3</p>
+                <p>90100 Oulu</p>
+                <p>Puhelin 044 999 888 99</p>
+                <p>Sähköposti info@kotkantienmaalaus.fi</p>
+                <a href="#">Laskutustiedot</a>
+                <br><br>
+                <div id="googleMap" style="width:100%;height:250px;"></div>
+            
+            </div>
+        </div>
+  </div>
+
+
+  <!--pyydä tarjous - lomake-->
+    <div id="tarjous" class="w3-twothird w3-margin-bottom"><!---->
+        <div class="w3-center w3-padding-64" id="contact">
+            <span class="w3-xlarge w3-bottombar w3-border-dark-grey w3-padding-16">Pyydä tarjous</span>
+        
+        </div>
+        <div class="w3-card-4" style="width:90%; margin: auto;">
+            <form class="w3-container" action="/action_page.php" target="_blank" style="width:75%; height: 500px; margin: auto;">
+                <div class="w3-section">
+                <label>Etu- ja sukunimi *</label>
+                <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Name" required>
+                </div>
+                <div class="w3-section">
+                <label>Sähköposti *</label>
+                <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" type="text" name="Email" required>
+                </div>
+                <div class="w3-section">
+                <label>Puhelinnumero *</label>
+                <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="puhelin" required>
+                </div>
+                <div class="w3-section">
+                <label>Paikkakunta *</label>
+                <input class="w3-input w3-border w3-hover-border-black" style="width:100%;" name="paikkakunta" required>
+                </div>
+                <div class="w3-section">
+                <label>Mistä haluaisit tarjouksen?</label>
+                <select class="w3-input w3-border w3-hover-border-black" id="yhtotto">
+                  <option value="valitse">Valitse sopiva vaihtoehto</option>
+                  <option value="Ulkoseinien maalaus">Ulkoseinien maalaus</option>
+                  <option value="Tapetointi">Tapetointi</option>
+                  <option value="Sisäseinien maalaus">Sisäseinien maalaus</option>
+                  <option value="arviokäynti">Maksuton arviokäynti</option>
+                  <option value="muu">Muu asia</option>
+                  </select>
+                
+                </div>
+                <button type="submit" class="w3-button w3-block w3-black">Lähetä</button>
+            </form>
+        </div>
+    </div>
+
+  </div>
+ 
+  
+</div>
+
+  <!-- Footer -->
+
+  <footer class="w3-container w3-padding-32 w3-light-grey w3-center">
+  
+    <a href="#" class="w3-button w3-black w3-margin"><i class="fa fa-arrow-up w3-margin-right"></i>Alkuun</a>
+    <div class="w3-xlarge w3-section">
+      <i class="fa fa-youtube w3-hover-opacity"></i>
+      <i class="fa fa-instagram w3-hover-opacity"></i>
+    </div>
+    <p>Copyright Kotkantien maalaus ja tapetointi 2023</p>
+    <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+  </footer>
+
+
+
+
+<script>
+
+//funktiot "modaaleille"/pop-up- ikkunoille, jotka avautuvat Palvelut osion "lue lisää"-painikkeista
+
+// muuttujien esittely
+//modaali/pop-up ikkuna
+var modal = document.getElementById("myModal");
+
+//"lue lisää" buttoni
+var btn = document.getElementById("myBtn");
+
+// yläkulman raksi, joka sulkee modaalin
+var span = document.getElementsByClassName("close")[0];
+//Pyydä tarjous buttoni
+var tarjous1 = document.getElementById("tarjous1");
+
+// Kun käyttäjä klikkaa "lue lisää" buttonia, modaali aukeaa 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// kun käyttäjä klikkaa span -elementtiä (ruksi yläkulmassa), modaali sulkeutuu
+span.onclick = function() {
+  modal.style.display = "none";
+}
+//kun käyttäjä klikkaa "pyydä tarjous" buttonia, modaali sulkeutuu
+tarjous1.onclick = function(){
+  modal.style.display = "none";
+}
+
+
+
+//toisen "modaalin" samat funktiot kuin yllä
+var modal2 = document.getElementById("myModal2");
+
+var btn = document.getElementById("myBtn2");
+
+var tarjous2 = document.getElementById("tarjous2");
+
+var span = document.getElementsByClassName("close")[1];
+
+ 
+btn.onclick = function() {
+  modal2.style.display = "block";
+}
+
+span.onclick = function() {
+  modal2.style.display = "none";
+}
+tarjous2.onclick = function(){
+  modal2.style.display = "none";
+}
+
+
+
+//3.modaalin samat funktiot kuin yllä
+var modal3 = document.getElementById("myModal3");
+
+var btn = document.getElementById("myBtn3");
+
+var tarjous3 = document.getElementById("tarjous3");
+
+var span = document.getElementsByClassName("close")[2];
+
+
+btn.onclick = function() {
+  modal3.style.display = "block";
+}
+
+span.onclick = function() {
+  modal3.style.display = "none";
+}
+
+tarjous3.onclick = function(){
+  modal3.style.display = "none";
+}
+
+
+
+// Gallerian slideshow w3-templatesta "marketing"
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {
+    slideIndex = 1
+  }    
+  if (n < 1) {
+    slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+//googlemaps functio
+function myMap() {
+var mapProp= {
+  center:new google.maps.LatLng(65.001654, 25.510875),
+  zoom:12,
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+}
+
+
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD99N6idiBIlrPR2dX9EvfQauHMGlUcdIk&callback=myMap"></script>
+
+</body>
+</html>

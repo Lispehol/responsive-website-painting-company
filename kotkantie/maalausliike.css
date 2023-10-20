@@ -1,0 +1,89 @@
+
+html,body,h1,h2,h3,h4 {
+    font-family:"Lato", sans-serif;
+    
+    
+}
+.mySlides {
+    display:none
+}
+.w3-tag, .fa {
+    cursor:pointer
+}
+.w3-tag {
+    height:15px;width:15px;padding:0;margin-top:6px
+}
+#otsikko {
+    font-family: Zen Dots;
+    font-size: 50px;
+    color: black;
+}
+#yhteys {
+    padding: 20px;
+}
+#tarjous {
+    padding: 20px;
+}
+h1 {
+    color: black;
+    font-family: Zen Dots;
+    font-size: 40px;
+}
+h2 {
+    color: black;
+    font-family: Lato;
+    font-size: x-large;
+    
+}
+.w3-top {
+    font-weight: 700;
+}
+#testaa {
+    font-weight: 500;
+}
+.varipalkit {
+    font-size: xx-small;
+   
+    
+}
+  /* The Modal (background) */
+ .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    padding-left: 0px;
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    margin: auto;
+    padding: 30px;
+    width: 40%;
+    font-size: x-large;
+    
+  }
+  
+ 
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
