@@ -1,2 +1,2 @@
-# kotkantie
-This is my first web-programming projectwork in my studies as a software developer. The pages are implemented with Html, css and JavaScript/jQuery. HTML pages are styled by w3-css framework.
+# Kotkantie 
+This is my first web-programming projectwork in my studies as a software developer. The task was to implement website for an imaginary company that does painting and wallpapering. The pages are implemented with HTML, CSS and JavaScript/jQuery. HTML pages are styled by w3-css framework. My goal was to implement a website that is responsive on different devices and I quess I succeeded well in that.
